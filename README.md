@@ -8,17 +8,17 @@
 
 | 技術 | 占比 | 相關專案 | 說明 |
 |:-----|:----:|:---------|:-----|
-| **Lean 4** | 30% | lean-triangle, lean-pythagorean, Monopylean, NaturalNumberGame | 形式化驗證與數學定理證明（三角形內角和、畢氏定理、自然數遊戲）|
-| **JavaScript / TypeScript** | 20% | opfs-cloud-file | OPFS 雲端檔案同步函式庫，使用 Vite、Jest、Web Workers、npm 發布 |
-| **Java / Gradle** | 15% | Welcome | Minecraft Spigot 插件開發，含投票機制、i18n、JUnit 5 測試 |
-| **Go** | 12% | go-kittyd | WebSocket 終端伺服器，使用 Gin 框架，含完整測試套件 |
-| **Shell / CI-CD** | 7% | *跨專案* | GitHub Actions 自動化工作流程、建構與部署腳本 |
-| **Docker / DevOps** | 6% | compose-php, DevContainers | Docker Compose 部署、s6-overlay、Lean 開發容器配置 |
-| **HTML / Reveal.js** | 5% | slide-sdd-spec-kit | SDD 規格驅動開發的投影片工具包 |
-| **PHP / Nginx** | 3% | compose-php | PHP-FPM + Nginx 的容器化 Web 伺服器部署 |
-| **Python / LaTeX** | 2% | NaturalNumberGame | Lean Blueprint 文檔產生器、LaTeX 數學排版 |
+| **Lean 4** | 30% | lean-triangle, lean-pythagorean, Monopylean, NaturalNumberGame, mylean | 形式化驗證與數學定理證明（三角形內角和、畢氏定理、自然數遊戲）；41 commits |
+| **JavaScript** | 18% | opfs-cloud-file | OPFS 雲端檔案同步函式庫，使用 Vite、Jest、Web Workers、npm 發布；25 commits |
+| **Java / Gradle** | 15% | Welcome | Minecraft Spigot 插件開發，含投票機制、i18n、JUnit 5 測試；19 commits |
+| **Go** | 12% | go-kittyd | WebSocket 終端伺服器，使用 Gin 框架，含完整測試套件；15 commits |
+| **Shell / CI-CD** | 8% | *跨專案* | GitHub Actions 自動化工作流程、建構與部署腳本 |
+| **HTML / Reveal.js** | 7% | slide-sdd-spec-kit | SDD 規格驅動開發的投影片工具包；31 commits |
+| **Docker / DevOps** | 5% | compose-php, DevContainers | Docker Compose 部署、Lean 開發容器配置 |
+| **Python / LaTeX** | 3% | NaturalNumberGame | Lean Blueprint 文檔產生器、LaTeX 數學排版 |
+| **PHP / Nginx** | 2% | compose-php | PHP-FPM + Nginx 的容器化 Web 伺服器部署 |
 
-> **分析方法**：根據過去 6 個月 (2025/09 – 2026/03) 的 12 個公開 GitHub 倉庫，依 commit 數量、專案複雜度與技術深度加權計算。
+> **分析方法**：根據過去 6 個月 (2025/09 – 2026/03) 的 12 個公開 GitHub 倉庫、135+ commits，依 commit 數量、專案複雜度與技術深度加權計算。
 
 ---
 
