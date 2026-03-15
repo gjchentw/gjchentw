@@ -5,100 +5,75 @@
     </style>
   </defs>
 
-  <!-- Background -->
   <rect width="960" height="700" rx="14" fill="#f8f9fb" stroke="#d0d7de" stroke-width="1"/>
 
-  <!-- Title -->
-  <text x="27" y="38" font-size="26" font-weight="700" fill="#1a1a2e">&#x1F9D1;&#x200D;&#x1F4BB; gjchentw &#x2014; Technical Skills</text>
-  <text x="27" y="60" font-size="13" fill="#57606a">Based on GitHub activity: 12 repositories &#xb7; 135+ commits &#xb7; Past 6 months (Sep 2025 &#x2013; Mar 2026)</text>
-  <text x="27" y="80" font-size="11" fill="#8b949e">Square Pie Chart &#x2014; Area is proportional to technology usage percentage</text>
+  <text x="30" y="40" font-size="26" font-weight="700" fill="#1a1a2e">🧠 gjchentw — Technical Skills Treemap</text>
+  <text x="30" y="62" font-size="13" fill="#57606a">Public GitHub activity (2025-09-15 → 2026-03-15) · 12 repositories · 168 commits</text>
+  <text x="30" y="82" font-size="11" fill="#8b949e">Squarified Treemap (Square Pie Chart): area ∝ weighted skill share</text>
 
-  <!-- Lean 4 (30%) -->
-  <rect x="28.5" y="97.5" width="431.9" height="357.6" rx="6" fill="#4963b8"/>
-  <rect x="28.5" y="97.5" width="431.9" height="357.6" rx="6" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
-  <text x="410.4" y="415.1" font-size="48" font-weight="700" fill="#ffffff" opacity="0.18" text-anchor="middle" dominant-baseline="central">λ</text>
-  <text x="38.5" y="131.5" font-size="24" font-weight="700" fill="#ffffff">Lean 4</text>
-  <text x="38.5" y="160.5" font-size="20" font-weight="600" fill="rgba(255,255,255,0.85)">30%</text>
-  <text x="38.5" y="188.5" font-size="12" fill="rgba(255,255,255,0.7)">Formal Verification</text>
-  <text x="38.5" y="203.5" font-size="12" fill="rgba(255,255,255,0.7)">&amp; Math Proofs</text>
-  <text x="38.5" y="223.5" font-size="12" font-style="italic" fill="rgba(255,255,255,0.7)">lean-triangle · lean-pythagorean</text>
-  <text x="38.5" y="238.5" font-size="12" font-style="italic" fill="rgba(255,255,255,0.7)">Monopylean · NaturalNumberGame</text>
+  <!-- Left column (450x560) -->
+  <!-- Lean 4 / Mathlib — 26% -->
+  <rect x="30" y="100" width="450" height="291.2" rx="6" fill="#495bb8"/>
+  <text x="44" y="134" font-size="24" font-weight="700" fill="#ffffff">Lean 4 / Mathlib</text>
+  <text x="44" y="162" font-size="20" font-weight="600" fill="rgba(255,255,255,0.9)">26%</text>
+  <text x="44" y="186" font-size="12" fill="rgba(255,255,255,0.75)">NaturalNumberGame · Monopylean</text>
+  <text x="44" y="202" font-size="12" fill="rgba(255,255,255,0.75)">lean-triangle · lean-pythagorean · mylean</text>
 
-  <!-- JavaScript (18%) -->
-  <rect x="28.5" y="458.1" width="431.9" height="213.4" rx="6" fill="#d4a017"/>
-  <rect x="28.5" y="458.1" width="431.9" height="213.4" rx="6" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
-  <text x="410.4" y="633.1" font-size="36" font-weight="700" fill="#1a1a2e" opacity="0.18" text-anchor="middle" dominant-baseline="central">JS</text>
-  <text x="38.5" y="492.1" font-size="24" font-weight="700" fill="#1a1a2e">JavaScript</text>
-  <text x="38.5" y="521.1" font-size="20" font-weight="600" fill="rgba(26,26,46,0.75)">18%</text>
-  <text x="38.5" y="549.1" font-size="12" fill="rgba(26,26,46,0.6)">OPFS · Vite · Jest</text>
-  <text x="38.5" y="564.1" font-size="12" fill="rgba(26,26,46,0.6)">Web Workers · npm</text>
-  <text x="38.5" y="584.1" font-size="12" font-style="italic" fill="rgba(26,26,46,0.6)">opfs-cloud-file</text>
+  <!-- JavaScript / PWA / SQLite WASM — 24% -->
+  <rect x="30" y="395.2" width="450" height="268.8" rx="6" fill="#d4a017"/>
+  <text x="44" y="429.2" font-size="23" font-weight="700" fill="#1a1a2e">JavaScript / PWA / SQLite WASM</text>
+  <text x="44" y="456.2" font-size="20" font-weight="600" fill="rgba(26,26,46,0.8)">24%</text>
+  <text x="44" y="480.2" font-size="12" fill="rgba(26,26,46,0.65)">mmex-pwa · opfs-cloud-file</text>
+  <text x="44" y="496.2" font-size="12" fill="rgba(26,26,46,0.65)">Web Worker · Vite · Jest · npm</text>
 
-  <!-- Java / Gradle (15%) -->
-  <rect x="463.4" y="97.5" width="258.7" height="296.6" rx="6" fill="#c75b1e"/>
-  <rect x="463.4" y="97.5" width="258.7" height="296.6" rx="6" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
-  <text x="672.1" y="354.1" font-size="36" font-weight="700" fill="#ffffff" opacity="0.18" text-anchor="middle" dominant-baseline="central">☕</text>
-  <text x="473.4" y="131.5" font-size="24" font-weight="700" fill="#ffffff">Java / Gradle</text>
-  <text x="473.4" y="160.5" font-size="20" font-weight="600" fill="rgba(255,255,255,0.85)">15%</text>
-  <text x="473.4" y="188.5" font-size="12" fill="rgba(255,255,255,0.7)">Minecraft Spigot</text>
-  <text x="473.4" y="203.5" font-size="12" fill="rgba(255,255,255,0.7)">Plugin · JUnit 5</text>
-  <text x="473.4" y="223.5" font-size="12" font-style="italic" fill="rgba(255,255,255,0.7)">Welcome</text>
+  <!-- Right top row (450x369.6) -->
+  <!-- HTML / Reveal.js — 13% -->
+  <rect x="480" y="100" width="177.3" height="369.6" rx="6" fill="#c43d1a"/>
+  <text x="492" y="132" font-size="20" font-weight="700" fill="#ffffff">HTML</text>
+  <text x="492" y="154" font-size="20" font-weight="700" fill="#ffffff">/ Reveal.js</text>
+  <text x="492" y="178" font-size="17" font-weight="600" fill="rgba(255,255,255,0.86)">13%</text>
+  <text x="492" y="202" font-size="11" fill="rgba(255,255,255,0.72)">slide-sdd-spec-kit</text>
 
-  <!-- Go (12%) -->
-  <rect x="725.1" y="97.5" width="206.4" height="296.6" rx="6" fill="#00a29a"/>
-  <rect x="725.1" y="97.5" width="206.4" height="296.6" rx="6" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
-  <text x="886.1" y="354.1" font-size="36" font-weight="700" fill="#ffffff" opacity="0.18" text-anchor="middle" dominant-baseline="central">Go</text>
-  <text x="735.1" y="131.5" font-size="24" font-weight="700" fill="#ffffff">Go</text>
-  <text x="735.1" y="160.5" font-size="20" font-weight="600" fill="rgba(255,255,255,0.85)">12%</text>
-  <text x="735.1" y="188.5" font-size="12" fill="rgba(255,255,255,0.7)">WebSocket · HTTP</text>
-  <text x="735.1" y="203.5" font-size="12" fill="rgba(255,255,255,0.7)">Server · Gin</text>
-  <text x="735.1" y="223.5" font-size="12" font-style="italic" fill="rgba(255,255,255,0.7)">go-kittyd</text>
+  <!-- Java / Gradle — 11% -->
+  <rect x="661.3" y="100" width="150" height="369.6" rx="6" fill="#c75b1e"/>
+  <text x="673.3" y="132" font-size="20" font-weight="700" fill="#ffffff">Java</text>
+  <text x="673.3" y="154" font-size="20" font-weight="700" fill="#ffffff">/ Gradle</text>
+  <text x="673.3" y="178" font-size="17" font-weight="600" fill="rgba(255,255,255,0.86)">11%</text>
+  <text x="673.3" y="202" font-size="11" fill="rgba(255,255,255,0.72)">Welcome</text>
 
-  <!-- Shell / CI-CD (8%) -->
-  <rect x="463.4" y="397.1" width="147.8" height="274.4" rx="6" fill="#3d8b37"/>
-  <rect x="463.4" y="397.1" width="147.8" height="274.4" rx="6" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
-  <text x="578.7" y="631.5" font-size="28" font-weight="700" fill="#ffffff" opacity="0.18" text-anchor="middle" dominant-baseline="central">&gt;_</text>
-  <text x="473.4" y="427.1" font-size="20" font-weight="700" fill="#ffffff">Shell</text>
-  <text x="473.4" y="450.1" font-size="20" font-weight="700" fill="#ffffff">/ CI-CD</text>
-  <text x="473.4" y="473.1" font-size="17" font-weight="600" fill="rgba(255,255,255,0.85)">8%</text>
-  <text x="473.4" y="498.1" font-size="11" fill="rgba(255,255,255,0.7)">GitHub Actions</text>
-  <text x="473.4" y="512.1" font-size="11" fill="rgba(255,255,255,0.7)">Automation</text>
-  <text x="473.4" y="531.1" font-size="11" font-style="italic" fill="rgba(255,255,255,0.7)">cross-project</text>
+  <!-- Go / Gin — 9% -->
+  <rect x="815.3" y="100" width="114.7" height="369.6" rx="6" fill="#00a29a"/>
+  <text x="823.3" y="132" font-size="19" font-weight="700" fill="#ffffff">Go</text>
+  <text x="823.3" y="154" font-size="19" font-weight="700" fill="#ffffff">/ Gin</text>
+  <text x="823.3" y="178" font-size="16" font-weight="600" fill="rgba(255,255,255,0.86)">9%</text>
+  <text x="823.3" y="200" font-size="10" fill="rgba(255,255,255,0.72)">go-kittyd</text>
 
-  <!-- HTML / Reveal.js (7%) -->
-  <rect x="614.1" y="397.1" width="223.1" height="158.8" rx="6" fill="#c43d1a"/>
-  <rect x="614.1" y="397.1" width="223.1" height="158.8" rx="6" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
-  <text x="788.1" y="527.3" font-size="24" font-weight="700" fill="#ffffff" opacity="0.18" text-anchor="middle" dominant-baseline="central">&lt;/&gt;</text>
-  <text x="624.1" y="427.1" font-size="20" font-weight="700" fill="#ffffff">HTML / Reveal.js</text>
-  <text x="624.1" y="452.1" font-size="17" font-weight="600" fill="rgba(255,255,255,0.85)">7%</text>
-  <text x="624.1" y="477.1" font-size="11" fill="rgba(255,255,255,0.7)">SDD Spec Slides</text>
-  <text x="624.1" y="496.1" font-size="11" font-style="italic" fill="rgba(255,255,255,0.7)">slide-sdd-spec-kit</text>
+  <!-- Right bottom row (450x190.4) -->
+  <!-- Shell / CI-CD — 7% -->
+  <rect x="480" y="473.6" width="185.3" height="190.4" rx="6" fill="#3d8b37"/>
+  <text x="492" y="503.6" font-size="20" font-weight="700" fill="#ffffff">Shell / CI-CD</text>
+  <text x="492" y="527.6" font-size="16" font-weight="600" fill="rgba(255,255,255,0.86)">7%</text>
+  <text x="492" y="549.6" font-size="11" fill="rgba(255,255,255,0.72)">Actions workflows</text>
 
-  <!-- Docker / DevOps (5%) -->
-  <rect x="614.1" y="558.9" width="223.1" height="112.6" rx="6" fill="#1a73c7"/>
-  <rect x="614.1" y="558.9" width="223.1" height="112.6" rx="6" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
-  <text x="788.1" y="651.2" font-size="28" font-weight="700" fill="#ffffff" opacity="0.18" text-anchor="middle" dominant-baseline="central">🐳</text>
-  <text x="624.1" y="584.9" font-size="16" font-weight="700" fill="#ffffff">Docker / DevOps</text>
-  <text x="624.1" y="605.9" font-size="14" font-weight="600" fill="rgba(255,255,255,0.85)">5%</text>
-  <text x="624.1" y="627.9" font-size="10" fill="rgba(255,255,255,0.7)">Compose</text>
-  <text x="624.1" y="640.9" font-size="10" fill="rgba(255,255,255,0.7)">DevContainers</text>
+  <!-- Python / LaTeX — 4% -->
+  <rect x="669.3" y="473.6" width="105.9" height="190.4" rx="6" fill="#2b5ea7"/>
+  <text x="677.3" y="501.6" font-size="16" font-weight="700" fill="#ffffff">Python</text>
+  <text x="677.3" y="521.6" font-size="16" font-weight="700" fill="#ffffff">/ LaTeX</text>
+  <text x="677.3" y="542.6" font-size="14" font-weight="600" fill="rgba(255,255,255,0.86)">4%</text>
 
-  <!-- Python / LaTeX (3%) -->
-  <rect x="840.3" y="397.1" width="91.2" height="163.4" rx="6" fill="#2b5ea7"/>
-  <rect x="840.3" y="397.1" width="91.2" height="163.4" rx="6" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
-  <text x="911.4" y="531.1" font-size="24" font-weight="700" fill="#ffffff" opacity="0.18" text-anchor="middle" dominant-baseline="central">🐍</text>
-  <text x="850.3" y="423.1" font-size="16" font-weight="700" fill="#ffffff">Python</text>
-  <text x="850.3" y="442.1" font-size="16" font-weight="700" fill="#ffffff">/ LaTeX</text>
-  <text x="850.3" y="461.1" font-size="14" font-weight="600" fill="rgba(255,255,255,0.85)">3%</text>
-  <text x="850.3" y="483.1" font-size="10" fill="rgba(255,255,255,0.7)">Blueprint Docs</text>
-  <text x="850.3" y="501.1" font-size="10" font-style="italic" fill="rgba(255,255,255,0.7)">NaturalNumberGame</text>
+  <!-- Docker / DevContainers — 3% -->
+  <rect x="779.2" y="473.6" width="79.4" height="190.4" rx="6" fill="#1a73c7"/>
+  <text x="785.2" y="499.6" font-size="13" font-weight="700" fill="#ffffff">Docker</text>
+  <text x="785.2" y="516.6" font-size="13" font-weight="700" fill="#ffffff">/ DevC</text>
+  <text x="785.2" y="535.6" font-size="13" font-weight="600" fill="rgba(255,255,255,0.86)">3%</text>
 
-  <!-- PHP / Nginx (2%) -->
-  <rect x="840.3" y="563.5" width="91.2" height="108.0" rx="6" fill="#6b6ea6"/>
-  <rect x="840.3" y="563.5" width="91.2" height="108.0" rx="6" fill="none" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
-  <text x="911.4" y="652.1" font-size="22" font-weight="700" fill="#ffffff" opacity="0.18" text-anchor="middle" dominant-baseline="central">PHP</text>
-  <text x="850.3" y="589.5" font-size="16" font-weight="700" fill="#ffffff">PHP</text>
-  <text x="850.3" y="608.5" font-size="16" font-weight="700" fill="#ffffff">/ Nginx</text>
-  <text x="850.3" y="627.5" font-size="14" font-weight="600" fill="rgba(255,255,255,0.85)">2%</text>
-  <text x="850.3" y="649.5" font-size="10" fill="rgba(255,255,255,0.7)">Web Server</text>
+  <!-- Markdown / SVG Docs — 2% -->
+  <rect x="862.6" y="473.6" width="52.9" height="190.4" rx="6" fill="#6b6ea6"/>
+  <text x="867" y="497.6" font-size="11" font-weight="700" fill="#ffffff">Docs</text>
+  <text x="867" y="512.6" font-size="11" font-weight="700" fill="#ffffff">MD/SVG</text>
+  <text x="867" y="528.6" font-size="11" font-weight="600" fill="rgba(255,255,255,0.86)">2%</text>
+
+  <!-- PHP / Nginx — 1% -->
+  <rect x="919.5" y="473.6" width="10.5" height="190.4" rx="4" fill="#7f5ab6"/>
+  <text x="914" y="670" font-size="10" font-weight="600" fill="#6b7280" text-anchor="end">PHP/Nginx 1%</text>
 </svg>
