@@ -8,17 +8,18 @@
 
 | 技術 | 占比 | 相關專案 | 說明 |
 |:-----|:----:|:---------|:-----|
-| **Lean 4** | 30% | lean-triangle, lean-pythagorean, Monopylean, NaturalNumberGame, mylean | 形式化驗證與數學定理證明（三角形內角和、畢氏定理、自然數遊戲）；41 commits |
-| **JavaScript** | 18% | opfs-cloud-file | OPFS 雲端檔案同步函式庫，使用 Vite、Jest、Web Workers、npm 發布；25 commits |
-| **Java / Gradle** | 15% | Welcome | Minecraft Spigot 插件開發，含投票機制、i18n、JUnit 5 測試；19 commits |
-| **Go** | 12% | go-kittyd | WebSocket 終端伺服器，使用 Gin 框架，含完整測試套件；15 commits |
-| **Shell / CI-CD** | 8% | *跨專案* | GitHub Actions 自動化工作流程、建構與部署腳本 |
-| **HTML / Reveal.js** | 7% | slide-sdd-spec-kit | SDD 規格驅動開發的投影片工具包；31 commits |
-| **Docker / DevOps** | 5% | compose-php, DevContainers | Docker Compose 部署、Lean 開發容器配置 |
-| **Python / LaTeX** | 3% | NaturalNumberGame | Lean Blueprint 文檔產生器、LaTeX 數學排版 |
-| **PHP / Nginx** | 2% | compose-php | PHP-FPM + Nginx 的容器化 Web 伺服器部署 |
+| **Lean 4 / Mathlib** | 26% | NaturalNumberGame, Monopylean, lean-triangle, lean-pythagorean, mylean | 形式化驗證與數學證明（定理構造、proof workflow、Mathlib 實作）；40 commits |
+| **JavaScript / PWA / SQLite WASM** | 24% | mmex-pwa, opfs-cloud-file | PWA 前端工程、OPFS 雲端同步、Web Worker、SQLite WASM、Vite/Jest/npm 發布；56 commits |
+| **HTML / Reveal.js** | 13% | slide-sdd-spec-kit | Reveal.js 投影片與 Spec-Driven Development 教學內容製作；30 commits |
+| **Java / Gradle (Spigot)** | 11% | Welcome | Minecraft Spigot 外掛開發（i18n、事件驅動快取、JUnit 5 測試、Gradle）；19 commits |
+| **Go / Gin** | 9% | go-kittyd | WebSocket 終端伺服器、HTTP 路由、測試與模組化重構；14 commits |
+| **Shell / CI-CD (GitHub Actions)** | 7% | mmex-pwa, Welcome, go-kittyd, NaturalNumberGame, slide-sdd-spec-kit | 建置、測試、發布與 GitHub Pages 自動化工作流程設計 |
+| **Python / LaTeX Tooling** | 4% | NaturalNumberGame, Monopylean | Lean Blueprint / 文件產線與 LaTeX/數學文檔工具鏈 |
+| **Docker / DevContainers** | 3% | Monopylean, compose-php | 容器化開發環境、postCreateCommand 與開發一致性配置 |
+| **Markdown / SVG Docs** | 2% | gjchentw | 技術分析文件、README 結構化資訊呈現、SVG 視覺化維護；5 commits |
+| **PHP / Nginx** | 1% | compose-php | PHP-FPM + Nginx docker-compose 服務組態與部署範例；4 commits |
 
-> **分析方法**：根據過去 6 個月 (2025/09 – 2026/03) 的 12 個公開 GitHub 倉庫、135+ commits，依 commit 數量、專案複雜度與技術深度加權計算。
+> **分析方法**：統計 2025/09/15–2026/03/15 間有活動的 12 個公開 repositories（共 168 commits）。占比採用加權分數：`commit 數 × 專案複雜度係數 × 技術深度係數`，再正規化為 100%。
 
 ---
 
